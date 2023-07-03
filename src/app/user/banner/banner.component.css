@@ -1,0 +1,29 @@
+.example-card {
+  max-width: 250px;
+  background-color: white;
+  margin: 10px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.img {
+  height: 200px;
+}
+
+.mdc-card__media {
+  height: auto;
+  width: auto;
+}
+
+.buttonDelete {
+  margin-top: -20px;
+  background-color: red;
+}
+.buttonEdit{
+  margin-top: 5px;
+  background-color: gray;
+}

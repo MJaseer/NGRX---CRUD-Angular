@@ -1,0 +1,31 @@
+<div class="divform">
+    <h1 style="font-size: large;">Edit Book </h1>
+    <form class="form">
+      <p>
+        <mat-form-field appearance="fill">
+          <mat-label>Enter id</mat-label>
+          <input [(ngModel)] = "bookForm.id" matInput placeholder="id" name="id">
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="fill">
+          <mat-label>Enter name</mat-label>
+          <input [(ngModel)] = "bookForm.name" matInput placeholder="name" name="name">
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="fill">
+          <mat-label>Enter franchise name</mat-label>
+          <input [(ngModel)] = "bookForm.franchise" matInput placeholder="franchise" name="franchise">
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="fill">
+          <mat-label>Enter image url</mat-label>
+          <input [(ngModel)] = "bookForm.imageurl" matInput placeholder="image url" name="image">
+        </mat-form-field>
+      </p>
+      <a mat-button type="button"  (click)="update()">Update</a>
+    </form>
+  </div>
+  
